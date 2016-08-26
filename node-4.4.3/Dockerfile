@@ -7,4 +7,4 @@ RUN apt-get update \
   && heroku --version \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* \
-  && echo "10.1.4.67	gl.maps.utp.edu.co" >> /etc/hosts
+  && echo "10.1.4.67        gl.maps.utp.edu.co" >> /etc/hosts
